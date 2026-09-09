@@ -1,24 +1,18 @@
-# DataDev Limited Corporate Website — V2
+# DataDev Limited Corporate Website — V3
 
-Client-facing staging build for DataDev Limited.
+V3 is the first major visual and evidence-oriented upgrade of the DataDev Limited public website.
 
-## Pages
-- index.html — universal corporate homepage
-- about.html — positioning and delivery model
-- solutions.html — solution portfolio
-- platforms.html — AGROW, HelpNova, GuestNova and ComplianceWatch
-- projects.html — transparent capability case studies
-- agrow.html — digital agriculture / VCN-relevant capability page
-- contact.html — staging contact page
+## What changed
+- Stronger universal DataDev homepage identity across sectors.
+- New multi-sector hero and visual capability mosaic.
+- Clear proof strip using only verifiable portfolio counts / current pilot-focus structure.
+- Dedicated capability cards and visual platform previews.
+- Stronger AGROW programme-capability section for development-programme conversations.
+- Clear cross-sector positioning: agriculture, development programmes, government, energy, workforce/services, hospitality/enterprise.
+- Improved client conversion path and stronger final CTA.
+
+## Important
+The AGROW dashboard shown on the homepage is an illustrative interface representation, clearly labelled as such. Replace it with real product screenshots before final client launch.
 
 ## Deployment
-Static site, suitable for GitHub Pages, Netlify or Vercel. All links are relative for GitHub project-pages compatibility.
-
-## Production tasks still required
-1. Insert official DataDev corporate email, phone and address details.
-2. Connect the contact form to the official mailbox or form backend.
-3. Add approved product screenshots/case-study imagery.
-4. Select and connect the permanent domain.
-5. Add social preview image and final SEO metadata.
-
-No client logos, impact numbers or deployment claims are included unless substantiated.
+Upload the contents of this folder to the root of the existing `datadev-limited` GitHub repository and commit to `main`. GitHub Pages will redeploy automatically.
