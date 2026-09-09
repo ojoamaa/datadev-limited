@@ -1,18 +1,17 @@
-# DataDev Limited Corporate Website — V3
+# DataDev Limited Corporate Website — V4 Production Foundation
 
-V3 is the first major visual and evidence-oriented upgrade of the DataDev Limited public website.
+This build is the production-hardening step after V3.
 
 ## What changed
-- Stronger universal DataDev homepage identity across sectors.
-- New multi-sector hero and visual capability mosaic.
-- Clear proof strip using only verifiable portfolio counts / current pilot-focus structure.
-- Dedicated capability cards and visual platform previews.
-- Stronger AGROW programme-capability section for development-programme conversations.
-- Clear cross-sector positioning: agriculture, development programmes, government, energy, workforce/services, hospitality/enterprise.
-- Improved client conversion path and stronger final CTA.
+- Removed internal design-reference files.
+- Added `site-config.js` for corporate email, phone, domain and social details.
+- Upgraded contact workflow so enquiries become pre-addressed email messages once the official mailbox is entered.
+- Added evidence-based project language rather than unsupported client/impact claims.
+- Added SEO/social metadata, manifest, robots.txt, sitemap.xml and 404 page.
+- Preserved GitHub Pages compatibility and the existing visual direction.
 
-## Important
-The AGROW dashboard shown on the homepage is an illustrative interface representation, clearly labelled as such. Replace it with real product screenshots before final client launch.
+## Before final domain launch
+Edit only `site-config.js` and insert the confirmed DataDev corporate contact details. Do not invent partner/client logos or impact statistics without evidence.
 
-## Deployment
-Upload the contents of this folder to the root of the existing `datadev-limited` GitHub repository and commit to `main`. GitHub Pages will redeploy automatically.
+## GitHub upload
+Upload the CONTENTS of this folder to the root of the existing `datadev-limited` repository and commit directly to `main`.
