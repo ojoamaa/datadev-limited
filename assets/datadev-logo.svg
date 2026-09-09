@@ -1,15 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" role="img" aria-label="DataDev Limited">
-  <defs>
-    <linearGradient id="g1" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#0b4f8a"/><stop offset="1" stop-color="#083b6b"/></linearGradient>
-    <linearGradient id="g2" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#14b86e"/><stop offset="1" stop-color="#0a8d5b"/></linearGradient>
-  </defs>
-  <g transform="translate(10 18)">
-    <path d="M42 16h44c41 0 67 24 67 56s-26 56-67 56H42z" fill="url(#g1)"/>
-    <path d="M69 42h21c20 0 34 12 34 30s-14 30-34 30H69z" fill="#f7fbff"/>
-    <path d="M69 42h50c21 0 33 11 33 28s-12 29-33 29H88V79h28c8 0 12-3 12-8s-4-8-12-8H69z" fill="url(#g2)"/>
-    <g fill="#0b4f8a" opacity=".95"><rect x="6" y="38" width="8" height="8" rx="2"/><rect x="18" y="28" width="8" height="8" rx="2"/><rect x="18" y="50" width="8" height="8" rx="2"/><rect x="6" y="62" width="8" height="8" rx="2"/></g>
-  </g>
-  <text x="190" y="88" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="62" font-weight="800" fill="#0b4f8a">Data<tspan fill="#0a9d63">Dev</tspan></text>
-  <text x="196" y="126" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="10" fill="#0a9d63">LIMITED</text>
-  <text x="195" y="157" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="500" fill="#35516d">Technology for People. Progress for Communities.</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 100"><g transform="translate(4 6)"><rect width="82" height="82" rx="18" fill="#082a4f"/><path d="M18 16h23c20 0 32 11 32 25S61 66 41 66H18V16zm17 13v24h7c9 0 14-4 14-12s-5-12-14-12h-7z" fill="#fff"/><path d="M18 56c13-3 27-12 42-29" stroke="#21c77b" stroke-width="9" stroke-linecap="round"/></g><text x="105" y="49" font-family="Arial, sans-serif" font-size="38" font-weight="700" fill="#082a4f">DataDev</text><text x="108" y="72" font-family="Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="5" fill="#21a96f">LIMITED</text><text x="108" y="91" font-family="Arial, sans-serif" font-size="10" fill="#617285">Data. Systems. Development.</text></svg>
