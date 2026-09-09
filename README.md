@@ -15,3 +15,27 @@ Edit only `site-config.js` and insert the confirmed DataDev corporate contact de
 
 ## GitHub upload
 Upload the CONTENTS of this folder to the root of the existing `datadev-limited` repository and commit directly to `main`.
+
+
+## V6.1 contact + visual portfolio update
+- Published project enquiry email: DataDev@gmail.com
+- Alternate email: ojoamaa@gmail.com
+- Mobile: 0803 621 4769
+- Office: 0805 896 5450
+- Added approved prototype visuals to homepage and Projects page.
+- Prototype visuals are labelled as concepts; replace/supplement with frozen live screenshots as each platform reaches release.
+
+
+## V6.1 landing-page refinement
+- Uses the approved multi-sector photographic landing-page visual on desktop.
+- Retains a responsive text-first hero on mobile for readability and accessibility.
+- Keeps project prototype imagery for AGROW, HelpNova, GuestNova and ComplianceWatch.
+- Retains the published DataDev contact configuration.
+- Does not publish unverified partner/client logos or performance claims.
+
+
+## V6.1 correction
+- Corrected AGROW visual preview so it no longer contains HelpNova branding.
+- Replaced all four platform preview crops with clean visual-only imagery; platform names and descriptions now remain HTML text.
+- Refined each platform description to reflect its actual solution scope.
+- Updated ComplianceWatch status to Functional MVP / demonstration build.
