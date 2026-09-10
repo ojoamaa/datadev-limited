@@ -39,3 +39,9 @@ Upload the CONTENTS of this folder to the root of the existing `datadev-limited`
 - Replaced all four platform preview crops with clean visual-only imagery; platform names and descriptions now remain HTML text.
 - Refined each platform description to reflect its actual solution scope.
 - Updated ComplianceWatch status to Functional MVP / demonstration build.
+
+
+## V6.2 automated enquiry workflow
+The contact form now submits through FormSubmit to DataDev@gmail.com, CCs ojoamaa@gmail.com, redirects successful submissions to thanks.html, preserves the visitor's email for reply, and sends an acknowledgement to the visitor.
+
+IMPORTANT FIRST-LIVE TEST: after deployment, submit the form once. FormSubmit will send an activation email to DataDev@gmail.com. Open that mailbox and click the activation link. Submissions are held temporarily until activation.

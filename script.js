@@ -21,17 +21,12 @@ document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().g
     }
   });
   const form = document.getElementById('contactForm');
-  if (form) form.addEventListener('submit', function(e){
-    e.preventDefault(); const status = document.getElementById('formStatus');
-    if (!cfg.email) { status.textContent = 'Corporate email is not configured yet.'; return; }
-    const name = document.getElementById('contactName').value.trim();
-    const org = document.getElementById('contactOrganisation').value.trim();
-    const em = document.getElementById('contactEmail').value.trim();
-    const area = document.getElementById('contactArea').value;
-    const need = document.getElementById('contactNeed').value.trim();
-    const subject = encodeURIComponent((cfg.contactSubject || 'DataDev Project Enquiry') + ' — ' + area);
-    const body = encodeURIComponent('Name: '+name+'\\nOrganisation: '+org+'\\nEmail: '+em+'\\nArea: '+area+'\\n\\nProject / programme need:\\n'+need);
-    status.textContent='Opening your email application…';
-    window.location.href = 'mailto:' + cfg.email + '?subject=' + subject + '&body=' + body;
-  });
+  if (form) {
+    form.addEventListener('submit', function(){
+      const status = document.getElementById('formStatus');
+      if (status) status.textContent = 'Sending your project enquiry…';
+      const btn = form.querySelector('button[type="submit"]');
+      if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
+    });
+  }
 })();
