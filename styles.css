@@ -40,3 +40,25 @@
 .core-five article:last-child{grid-column:2/span 1}
 @media(max-width:1050px){.platform-showcase{grid-template-columns:repeat(2,1fr)}.platform-showcase>.showcase,.platform-showcase>.showcase:nth-child(4),.platform-showcase>.showcase:nth-child(5){grid-column:auto}.core-five article:last-child{grid-column:auto}}
 @media(max-width:720px){.platform-showcase{grid-template-columns:1fr}.portfolio-five>.case:last-child{grid-column:auto}.architecture-flow{align-items:flex-start}.architecture-flow b{display:none}.core-five article:last-child{grid-column:auto}}
+
+/* V7.1 equal-platform portfolio refinements */
+.platform-showcase{grid-template-columns:repeat(5,minmax(0,1fr))}
+.platform-showcase>.showcase,.platform-showcase>.showcase:nth-child(4),.platform-showcase>.showcase:nth-child(5){grid-column:auto}
+.showcase-top{min-height:64px;gap:8px}.showcase-top span{max-width:45%}.showcase-top b{font-size:18px;text-align:right}
+.portfolio-principle{padding-top:20px}.portfolio-principle-box{border:1px solid #d9e7ee;background:linear-gradient(135deg,#f7fbfd,#eff9f5);border-radius:22px;padding:34px}.portfolio-principle-box h2{margin:8px 0 12px}.portfolio-principle-box .lead{margin:0}
+.core-platform-grid{grid-template-columns:repeat(5,minmax(0,1fr))}.core-platform-grid .platform:last-child{grid-column:auto}.core-platform-grid .platform{min-height:420px;padding:24px}.core-platform-grid .platform h3{font-size:27px}.core-platform-grid .platform p,.core-platform-grid .platform li{font-size:13px}.gridlink{background:linear-gradient(135deg,#765800,#c58a08)}
+.platform-detail-hero .two{align-items:center}.detail-hero-image{width:100%;max-height:330px;object-fit:cover;border-radius:22px;border:1px solid rgba(255,255,255,.18);box-shadow:0 18px 45px rgba(0,0,0,.18)}.light-tags span{background:#eef6f3;border-color:#d5e8df;color:#164d3a}.equal-standing-note{padding-bottom:20px}
+@media(max-width:1200px){.platform-showcase,.core-platform-grid{grid-template-columns:repeat(2,1fr)}.platform-showcase>.showcase:last-child,.core-platform-grid .platform:last-child{grid-column:1/-1}}
+@media(max-width:720px){.platform-showcase,.core-platform-grid{grid-template-columns:1fr}.platform-showcase>.showcase:last-child,.core-platform-grid .platform:last-child{grid-column:auto}.platform-detail-hero .two{grid-template-columns:1fr}.showcase-top span{max-width:50%}.showcase-top b{font-size:17px}.portfolio-principle-box{padding:24px}}
+
+/* V7.1 production grid correction: equal cards in a balanced 3 + 2 layout */
+@media(min-width:1201px){
+  .platform-showcase{grid-template-columns:repeat(6,1fr)}
+  .platform-showcase>.showcase{grid-column:span 2}
+  .platform-showcase>.showcase:nth-child(4){grid-column:2/span 2}
+  .platform-showcase>.showcase:nth-child(5){grid-column:4/span 2}
+  .core-platform-grid{grid-template-columns:repeat(6,1fr)}
+  .core-platform-grid>.platform{grid-column:span 2}
+  .core-platform-grid>.platform:nth-child(4){grid-column:2/span 2}
+  .core-platform-grid>.platform:nth-child(5){grid-column:4/span 2}
+}
