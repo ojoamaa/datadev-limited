@@ -90,3 +90,35 @@
 .innovation-note{margin:22px 0 0;color:#637587;font-size:13px}
 @media(max-width:1000px){.platform-showcase,.client-innovation-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
 @media(max-width:650px){.platform-showcase,.client-innovation-grid{grid-template-columns:1fr!important}.platform-showcase .showcase h3{min-height:0}}
+
+
+/* V7.3.1 production patch — Platforms page six-card alignment */
+.core-platform-grid{
+  display:grid!important;
+  grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  gap:24px!important;
+  align-items:stretch!important;
+}
+.core-platform-grid>.platform,
+.core-platform-grid>.platform:nth-child(n){
+  grid-column:auto!important;
+  width:auto!important;
+  min-width:0!important;
+  min-height:430px!important;
+  height:100%!important;
+  padding:28px!important;
+  display:flex!important;
+  flex-direction:column!important;
+}
+.core-platform-grid>.platform h3{margin:10px 0 12px!important;min-height:42px;}
+.core-platform-grid>.platform p{margin:0 0 10px!important;}
+.core-platform-grid>.platform ul{margin:8px 0 18px!important;flex:1;}
+.core-platform-grid>.platform .btn{margin-top:auto!important;align-self:flex-start;}
+.attendance{background:linear-gradient(135deg,#174d78,#2d80ad)}
+@media(max-width:1000px){
+  .core-platform-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important;}
+}
+@media(max-width:650px){
+  .core-platform-grid{grid-template-columns:1fr!important;}
+  .core-platform-grid>.platform{min-height:auto!important;}
+}
