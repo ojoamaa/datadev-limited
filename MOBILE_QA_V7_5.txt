@@ -1,0 +1,34 @@
+DataDev V7.5 Mobile QA checklist
+
+Test widths: 360px, 390px, 430px, 768px, 1024px, desktop.
+
+HOME
+[ ] Same photographic brand identity visible on mobile
+[ ] Hero headline and both CTAs visible
+[ ] No horizontal scrolling
+[ ] Proof strip fits in 2x2 layout on phone
+[ ] Six platform cards stack cleanly
+[ ] Client Solutions & Innovation cards stack cleanly
+[ ] Shared architecture remains readable
+[ ] Footer stacks without clipping
+
+NAVIGATION
+[ ] Hamburger opens below header
+[ ] All navigation links are tappable
+[ ] Menu closes after selection
+
+PLATFORMS / PRODUCT PAGES
+[ ] Six platform cards preserve content and CTAs
+[ ] Product page hero text does not overflow
+[ ] Feature grids stack cleanly
+
+CONTACT
+[ ] Form fields are full width on phone
+[ ] No browser zoom on field focus
+[ ] Send Project Enquiry remains usable
+[ ] Thank-you page is readable
+
+CONTACT CONFIGURATION
+Official interim email: linksplux@gmail.com
+Mobile: 0803 521 4769
+Office: 0805 896 5450
