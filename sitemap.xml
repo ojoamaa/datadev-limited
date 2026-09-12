@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>./index.html</loc></url>
-<url><loc>./about.html</loc></url>
-<url><loc>./solutions.html</loc></url>
-<url><loc>./platforms.html</loc></url>
-<url><loc>./projects.html</loc></url>
-<url><loc>./agrow.html</loc></url>
-<url><loc>./contact.html</loc></url>
-<url><loc>https://ojoamaa.github.io/datadev-limited/thanks.html</loc></url></urlset>
+<url><loc>https://ojoamaa.github.io/datadev-limited/</loc></url>
+<url><loc>https://ojoamaa.github.io/datadev-limited/about.html</loc></url>
+<url><loc>https://ojoamaa.github.io/datadev-limited/solutions.html</loc></url>
+<url><loc>https://ojoamaa.github.io/datadev-limited/platforms.html</loc></url>
+<url><loc>https://ojoamaa.github.io/datadev-limited/projects.html</loc></url>
+<url><loc>https://ojoamaa.github.io/datadev-limited/agrow.html</loc></url>
+<url><loc>https://ojoamaa.github.io/datadev-limited/gridlink.html</loc></url>
+<url><loc>https://ojoamaa.github.io/datadev-limited/contact.html</loc></url>
+</urlset>

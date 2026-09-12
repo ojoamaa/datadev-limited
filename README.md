@@ -18,9 +18,9 @@ Upload the CONTENTS of this folder to the root of the existing `datadev-limited`
 
 
 ## V6.1 contact + visual portfolio update
-- Published project enquiry email: DataDev@gmail.com
+- Published project enquiry email: linksplux@gmail.com
 - Alternate email: ojoamaa@gmail.com
-- Mobile: 0803 621 4769
+- Mobile: 0803 521 4769
 - Office: 0805 896 5450
 - Added approved prototype visuals to homepage and Projects page.
 - Prototype visuals are labelled as concepts; replace/supplement with frozen live screenshots as each platform reaches release.
@@ -42,6 +42,14 @@ Upload the CONTENTS of this folder to the root of the existing `datadev-limited`
 
 
 ## V6.2 automated enquiry workflow
-The contact form now submits through FormSubmit to DataDev@gmail.com, CCs ojoamaa@gmail.com, redirects successful submissions to thanks.html, preserves the visitor's email for reply, and sends an acknowledgement to the visitor.
+The contact form now submits through FormSubmit to linksplux@gmail.com, CCs ojoamaa@gmail.com, redirects successful submissions to thanks.html, preserves the visitor's email for reply, and sends an acknowledgement to the visitor.
 
-IMPORTANT FIRST-LIVE TEST: after deployment, submit the form once. FormSubmit will send an activation email to DataDev@gmail.com. Open that mailbox and click the activation link. Submissions are held temporarily until activation.
+IMPORTANT FIRST-LIVE TEST: after deployment, submit the form once. FormSubmit will send an activation email to linksplux@gmail.com. Open that mailbox and click the activation link. Submissions are held temporarily until activation.
+
+
+## V7 portfolio consolidation
+- Core product portfolio fixed at five: AGROW, HelpNova, GuestNova, ComplianceWatch and GridLink.
+- SIZEPLUS positioned under Projects / Client Digital Transformation, not as a core platform.
+- Shared platform architecture added: Registration/Assets → Identity & Verification → GIS/Field Data → Workflow → Evidence → Alerts → Analytics → Accountability/Reporting.
+- Official interim enquiry email changed to linksplux@gmail.com.
+- Mobile corrected to 0803 521 4769; office remains 0805 896 5450.
