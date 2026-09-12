@@ -62,3 +62,10 @@
   .core-platform-grid>.platform:nth-child(4){grid-column:2/span 2}
   .core-platform-grid>.platform:nth-child(5){grid-column:4/span 2}
 }
+
+/* V7.2 portfolio additions */
+.attendance-show .showcase-top{background:linear-gradient(135deg,#234a78,#4876a8)}
+.attendance-card{border-top:4px solid #315f91}
+.core-six{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:900px){.core-six{grid-template-columns:1fr 1fr}}
+@media(max-width:620px){.core-six{grid-template-columns:1fr}}

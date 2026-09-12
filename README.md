@@ -27,3 +27,11 @@ The five platforms have equal strategic standing. Maturity labels remain truthfu
 - Preserved working FormSubmit enquiry routing and thank-you page.
 
 - Removed public/personal CC routing; production enquiries now route to the interim official address only.
+
+
+## V7.2 portfolio update
+- Added Digital Attendance as the sixth core platform.
+- Restored SIZEPLUS under Client Solutions / Digital Transformation.
+- Added Salon & Barber Business Automation and Content Creator for Artisans & Professionals as concept/placeholder innovation items.
+- Preserved active FormSubmit enquiry routing and interim contact email linksplux@gmail.com.
+- Interim contact: 0803 521 4769; office: 0805 896 5450.
