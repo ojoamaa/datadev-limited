@@ -69,3 +69,24 @@
 .core-six{grid-template-columns:repeat(3,minmax(0,1fr))}
 @media(max-width:900px){.core-six{grid-template-columns:1fr 1fr}}
 @media(max-width:620px){.core-six{grid-template-columns:1fr}}
+
+
+/* V7.3 production alignment and client innovation portfolio */
+.platform-showcase{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:24px!important;align-items:stretch!important}
+.platform-showcase>.showcase,.platform-showcase>.showcase:nth-child(n){grid-column:auto!important;width:auto!important;min-width:0!important;display:flex!important;flex-direction:column!important;height:100%!important}
+.platform-showcase .prototype-img{height:180px!important}
+.platform-showcase .showcase h3{min-height:44px}
+.platform-showcase .showcase p{flex:1}
+.platform-showcase .showcase>a{margin-top:auto}
+.client-innovation-home{background:#f5f9fc}
+.client-innovation-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;align-items:stretch}
+.innovation-card{background:#fff;border:1px solid #dfe8ef;border-radius:20px;padding:28px;box-shadow:0 8px 24px rgba(8,42,79,.06);display:flex;flex-direction:column;min-height:330px}
+.innovation-status{font-size:11px;letter-spacing:.11em;font-weight:800;color:#0a8b5c;margin-bottom:12px}
+.innovation-card h3{font-size:22px;line-height:1.25;color:#0b315c;margin:0 0 12px}
+.innovation-card p{color:#637587;font-size:14px;line-height:1.7;flex:1}
+.innovation-card>a{color:#08794e;font-weight:800;font-size:14px;margin-top:18px}
+.innovation-tags{display:flex;gap:7px;flex-wrap:wrap;margin-top:12px}
+.innovation-tags span{background:#edf7f2;color:#15704e;border-radius:999px;padding:5px 9px;font-size:11px;font-weight:700}
+.innovation-note{margin:22px 0 0;color:#637587;font-size:13px}
+@media(max-width:1000px){.platform-showcase,.client-innovation-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+@media(max-width:650px){.platform-showcase,.client-innovation-grid{grid-template-columns:1fr!important}.platform-showcase .showcase h3{min-height:0}}
