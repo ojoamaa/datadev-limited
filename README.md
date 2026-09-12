@@ -35,3 +35,13 @@ The five platforms have equal strategic standing. Maturity labels remain truthfu
 - Added Salon & Barber Business Automation and Content Creator for Artisans & Professionals as concept/placeholder innovation items.
 - Preserved active FormSubmit enquiry routing and interim contact email linksplux@gmail.com.
 - Interim contact: 0803 521 4769; office: 0805 896 5450.
+
+
+## V7.4 Production Hardening
+- Responsive QA safeguards for desktop, tablet and mobile layouts.
+- Canonical URLs and page-level Open Graph URL/image metadata for GitHub Pages.
+- Large social preview cards and font preconnect.
+- Keyboard-accessible navigation with Escape close, focus states and skip-to-content links.
+- Lazy loading/async decoding for non-critical images; high-priority hero imagery.
+- Contact form retains linksplux@gmail.com, FormSubmit honeypot and controlled thank-you redirect.
+- No unsupported deployment, partnership or client-impact claims added.
